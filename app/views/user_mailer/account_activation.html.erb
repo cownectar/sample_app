@@ -1,0 +1,14 @@
+<h1>Sadboi App</h1>
+
+<p>Hi <%= @user.name %>,</p>
+
+<p>
+Welcome to Sadboi Twitter! The link below will take you back to my site and activate your account so you can take it for a spin:
+</p>
+
+<%= link_to "Activate", edit_account_activation_url(@user.activation_token,
+                                                    email: @user.email) %>
+
+<p>
+  Only rule is: Don't be a cunt!
+</p>
