@@ -1,0 +1,8 @@
+<% if @feed_items.any? %>
+  <ol class="microposts">
+		<%= render @feed_items %>
+	</ol>
+	<%= will_paginate @feed_items,
+          params: { controller: :static_pages, action: :home } %>
+					<!--Adding the params is necessary because will_paginate is looking in the microposts controller for an index action, because @feed_items is being created in the microposts controller. -->
+<% end %>

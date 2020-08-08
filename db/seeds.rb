@@ -17,3 +17,12 @@ User.create!(name:  name,
 						 password:              password,
 						 password_confirmation: password)
 end
+
+# Generate microposts for a subset of users.
+users = User.order(:created_at).take(6)
+50.times do
+	#Produces some retard bullshit
+  content = Faker::Lorem.sentence(word_count: 5)
+  #Posts the bullshit to each users micropost
+  users.each { |user| user.microposts.create!(content: content) }
+end
