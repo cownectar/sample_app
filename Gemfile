@@ -8,7 +8,7 @@ gem 'image_processing',           '1.9.3'
 gem 'mini_magick',                '4.9.5'
 gem 'active_storage_validations', '0.8.9'
 #This is production but im too lazy to figure out how to install with production lmao
-gem 'aws-sdk-s3', '1.46.0', require: false
+gem 'aws-sdk-s3',                 '1.46.0', require: false
 gem 'bootstrap-sass',             '3.4.1' #css library
 gem 'faker',                      '2.11.0' #makes fake names
 gem 'will_paginate',              '3.3.0'
