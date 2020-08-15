@@ -30,7 +30,7 @@ end
 #Following Relationships
 users = User.all
 user = users.first
-following = user[2..50]
+following = users[2..50]
 followers = users[3..40]
 following.each { |followed| user.follow(followed)}
 followers.each { |follower| user.follow(user)}
