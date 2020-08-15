@@ -1,0 +1,15 @@
+one:
+ follower: joseph
+ followed: lana
+
+two:
+ follower: joseph
+ followed: malory
+
+three:
+ follower: lana
+ followed: joseph
+
+four:
+ follower: jonah
+ followed: joseph
