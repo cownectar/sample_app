@@ -13,7 +13,7 @@ gem 'bootstrap-sass',             '3.4.1' #css library
 gem 'faker',                      '2.11.0' #makes fake names
 gem 'will_paginate',              '3.3.0'
 gem 'bootstrap-will_paginate',    '1.0.0'
-gem 'puma',                       '4.3.5' #server
+gem 'puma',                       '4.3.11' #server
 gem 'sass-rails',                 '6.0.0'
 gem 'webpacker',                  '4.2.2'
 gem 'turbolinks',                 '5.2.1'
